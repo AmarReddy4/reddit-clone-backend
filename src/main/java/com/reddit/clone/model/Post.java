@@ -6,12 +6,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.lang.Nullable;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import java.time.Instant;
 
-import static javax.persistence.FetchType.LAZY;
-import static javax.persistence.GenerationType.IDENTITY;
+import static jakarta.persistence.FetchType.LAZY;
+import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Data
 @Entity
